@@ -43,7 +43,29 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    ```bash
    npx expo start
    ```
+Após iniciar o servidor, você pode abrir o aplicativo:
 
+No navegador: pressionando w no terminal para visualizar na web.
+
+No celular: escaneando o QR Code exibido no terminal pelo aplicativo Expo Go (com o aparelho conectado à mesma rede).
+
+Emulador: pressionando a para Android ou i para iOS, caso tenha ambiente configurado.
+
+(Observação: caso alguma funcionalidade dependa de dados persistidos ou endpoints em execução, certifique-se de que a API em Java e o banco MySQL configurado a partir do beetech_db.sql estejam ativos no seu ambiente local).
+
+Autoria e Divisão de Responsabilidades
+O projeto BeeTech foi idealizado e conduzido em parceria acadêmica, com papéis bem definidos entre as integrantes:
+
+Melaine Borges Alves — Concepção geral do projeto, arquitetura do sistema, desenvolvimento integral do código-fonte (frontend mobile em React Native/Expo, backend em Java e modelagem/banco de dados MySQL), além da estruturação, organização e publicação técnica dos repositórios.
+
+Patricia de Cassia Lemos Medeiros Leal — Apoio na pesquisa bibliográfica e no levantamento e elaboração dos conteúdos textuais do projeto.
+
+Contato e Links
+Repositório de Código: https://github.com/melaineborgesctba-cmd/projeto-beetech-codigo
+
+E-mail: melaine.borges.ctba@gmail.com
+
+  
 In the output, you'll find options to open the app in a
 
 - [development build](https://docs.expo.dev/develop/development-builds/introduction/)
