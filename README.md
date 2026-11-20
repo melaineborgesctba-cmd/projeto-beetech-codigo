@@ -1,5 +1,33 @@
-# Welcome to your Expo app 👋
+# BeeTech — Aplicativo Mobile, API e Base de Dados
 
+Este repositório reúne o código-fonte do **BeeTech**, projeto desenvolvido no âmbito acadêmico com foco na preservação das abelhas sem ferrão, na educação ambiental e na conexão entre meliponicultura urbana, sustentabilidade e tecnologia.
+
+A proposta une o cuidado com a biodiversidade e a organização de um projeto de software de verdade: interface *mobile* construída com React Native e Expo Router, serviço de *backend* em Java/Maven e modelagem de dados relacional em MySQL (`beetech_db.sql`).
+
+---
+
+## Arquitetura e Organização do Projeto
+
+* **Aplicativo Mobile (`app/`, `components/`, `hooks/`, `constants/`, `assets/`):** estrutura de navegação e telas desenvolvidas em React Native com Expo Router, voltadas à experiência do usuário, catálogo/conteúdo do projeto e fluxos da aplicação.
+* **API / Backend (`api/`):** estrutura de serviços em Java/Maven para processamento de regras e requisições da aplicação.
+* **Banco de Dados (`beetech_db.sql`):** *script* SQL com a estrutura de dados do sistema.
+
+---
+
+## Logística e Operação (Contexto do Projeto)
+
+Conforme definido no escopo do projeto, o **BeeTech** não opera com frota própria de veículos. O preparo dos pedidos prioriza práticas de logística verde, e o transporte é feito por serviços terceirizados: **motoboy** para entregas locais e **Correios/Sedex** para envios regionais e nacionais.
+
+---
+
+## Como Obter e Rodar o Projeto a Partir do Git
+
+Para baixar o código deste repositório e executar o aplicativo *mobile* localmente:
+
+### 1. Clonar o repositório
+```bash
+git clone [https://github.com/melaineborgesctba-cmd/projeto-beetech-codigo.git](https://github.com/melaineborgesctba-cmd/projeto-beetech-codigo.git)
+cd projeto-beetech-codigo
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## Get started
